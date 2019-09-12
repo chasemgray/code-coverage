@@ -93,7 +93,7 @@ module.exports = {
       : `--reporter=${reporter}`
 
     // should we generate report via NYC module API?
-    const command = 'nyc'
+    const command = 'npx nyc'
     const args = [
       'report',
       '--report-dir',
