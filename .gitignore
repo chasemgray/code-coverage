@@ -7,3 +7,6 @@ dist/
 .cache/
 .vscode/
 cypress-coverage/
+examples/*/cypress/videos
+examples/*/cypress/screenshots
+yarn.lock
