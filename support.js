@@ -82,7 +82,7 @@ const registerHooks = () => {
       },
       { log: false }
     ).then(() => {
-      logInstance.end()
+      return logInstance.end()
     })
   })
 
